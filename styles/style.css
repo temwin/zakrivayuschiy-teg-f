@@ -70,6 +70,7 @@
 .card__title {
   background-color: var(--background-blocks, white);
   font-family: var(--main-font), sans-serif;
+  font-variation-settings: var(--card-title-weight);
   font-size: var(--basic-font, 18px);
   border-bottom: 2px solid var(--border-color, black);
   padding: 4.5px 10px 4px;
@@ -158,6 +159,7 @@
 
 .card__paragraph {
   font-size: var(--basic-font, 18px);
+  font-variation-settings: var(--card-text-weight);
   line-height: 21px;
 }
 
